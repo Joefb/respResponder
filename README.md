@@ -1,4 +1,5 @@
 <div align="center">
+
 # respResponder
 ###### Voice notifications so you never miss a hash!
 </div>
@@ -15,9 +16,9 @@ the background and continue haxoring the network but totally forget that it's st
 still running and check it. O snap! Multiple hashes were captured an hour and a half ago! You really wish you were notified right away.
 
 ## - The Fix
-Use a handy python script that will give voice notifications when a hash is captured!
+Use a handy python script that will give voice notifications when a hash is captured.
 
-## - Installation
+## - Instalation
 * Python3 required
 * Playsound python package required
 ```bash

@@ -7,12 +7,14 @@ from playsound import playsound
 ##Custom log path:
 #log_path = "./Responder-Session.log"
 
+# Test
 
 ### No need to modify below this line ########################################
 ##############################################################################
 
 ##Default installation log path:
 log_path = "/usr/share/responder/logs/Responder-Session.log"
+
 
 file_size = os.path.getsize(log_path)
 last_pos = file_size

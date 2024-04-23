@@ -7,8 +7,6 @@ from playsound import playsound
 ##Custom log path:
 #log_path = "./Responder-Session.log"
 
-# Test
-
 ### No need to modify below this line ########################################
 ##############################################################################
 

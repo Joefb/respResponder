@@ -10,15 +10,15 @@
 * [Installation](#-Installation)
 * [Usage](#-Usage)
 
-## - The Issue
+## The Issue
 You fire up Responder for some LLMNR poisoning so you can capture some sweet sweet hashes. You leave Responder running in
 the background and continue haxoring the network but totally forget that it's still running. Two hours later... You finally realize Responder is
 still running and check it. O snap! Multiple hashes were captured an hour and a half ago! You really wish you were notified right away.
 
-## - The Fix
+## The Fix
 Use a handy python script that will give voice notifications when a hash is captured.
 
-## - Instalation
+## Installation
 * Python3 required
 * Playsound python package required
 ```bash
@@ -30,7 +30,7 @@ pip3 install playsound
 ##Custom log path:
 log_path = "./Responder-Session.log"
 ```
-## - Usage
+## Usage
 * Run `respResponder.py`
 ```python
 python3 respResponder.py

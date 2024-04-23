@@ -1,6 +1,6 @@
 <div align="center">
 
-# respResponder
+# RespResponder
 ###### Voice notifications so you never miss a hash!
 </div>
 

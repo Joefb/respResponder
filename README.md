@@ -5,10 +5,10 @@
 </div>
 
 ## - TOC
-* [The Issue](#-The-Issue)
-* [The Fix](#-The-Fix)
-* [Installation](#-Installation)
-* [Usage](#-Usage)
+* [The Issue](#The-Issue)
+* [The Fix](#The-Fix)
+* [Installation](#Installation)
+* [Usage](#Usage)
 
 ## The Issue
 You fire up Responder for some LLMNR poisoning so you can capture some sweet sweet hashes. You leave Responder running in

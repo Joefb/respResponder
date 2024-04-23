@@ -5,13 +5,13 @@ from playsound import playsound
 
 ### If Responder was not installed to the default location enter log path below ###
 ##Custom log path:
-#log_path = "./Responder-Session.log"
+log_path = "./Responder-Session.log"
 
 ### No need to modify below this line ########################################
 ##############################################################################
 
 ##Default installation log path:
-log_path = "/usr/share/responder/logs/Responder-Session.log"
+#log_path = "/usr/share/responder/logs/Responder-Session.log"
 
 
 file_size = os.path.getsize(log_path)
@@ -46,7 +46,7 @@ try:
                     captured_user_name = split_hash[3].strip()
 
                     if captured_user_name != last_user_name:
-                        playsound("./hash_capture.mp3")
+                        playsound("./assets/hash_capture.mp3")
                         split_hash = line.split()
                         last_password = split_hash[8]
                         last_user_name = captured_user_name

@@ -22,7 +22,7 @@ Use a handy python script that will give voice notifications when a hash is capt
 * Python3 required
 * Playsound python package required
 ```bash
-pip install playsound
+pip3 install playsound
 ```
 * If Responder is not installed to default location then open 'respResponder.py` in your favorite editor and add the path on line 8:
 ```python
